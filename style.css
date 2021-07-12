@@ -89,8 +89,8 @@ input[type="search"]{
     border-radius: 5px;
     width: 900px;
     height: 55px;
-    background-color: var(--input-back);
-    border: 1px solid white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
     color: var(--white);
     background-image: url("/assets/search-icon.svg");
     background-position: 10px 18px;
@@ -99,6 +99,11 @@ input[type="search"]{
     outline: none;
     margin-left: 600px;
     margin-top: 50px;
+}
+
+
+input[type="search"]:focus {
+    border: 1px solid white;
 }
 
 input[type="search"]::placeholder {
