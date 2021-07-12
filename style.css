@@ -187,7 +187,13 @@ footer {
     .titulo-blog p {
         display: none;
     }
+
+    .icon-heart {
+        position: absolute;
+        right: 100px;
+    }
 }
+
 
 
 
