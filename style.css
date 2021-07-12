@@ -152,6 +152,7 @@ footer {
 @media screen and (max-width: 482px) {
     body {
         font-size:12px;
+        overflow-x:hidden;
     }
     
     footer {
@@ -167,6 +168,10 @@ footer {
         position: absolute;
         right: 50px;
     }
+
+    .titulo-blog {
+        display: none;
+    }
 }
 
 
@@ -174,6 +179,20 @@ footer {
 @media screen and (max-width:768px) {
     input[type="text"]{
         display: none;
+    }
+
+    .titulo-blog {
+        display: none;
+    }
+
+    footer {
+        height: 60px;
+    }
+
+
+    .icon-heart {
+        position: absolute;
+        right: 95px;
     }
 }
 
